@@ -1,10 +1,8 @@
-import styled from 'styled-components'
-
-
+import styled from "styled-components";
 
 export const NavBarContainer = styled.div`
   display: flex;
-  width: 70vw;
+  width: 60vw;
   height: 50px;
   background: white;
   color: gray;
@@ -12,6 +10,4 @@ export const NavBarContainer = styled.div`
   justify-content: space-between;
   padding-left: 18px;
   padding-right: 18px;
-
-
-`
+`;
