@@ -129,7 +129,7 @@ function App() {
                     display: "flex",
                     flexDirection: "column",
                     fontSize: "13px",
-                    marginLeft: "6px",
+                    marginLeft: "8px",
                     marginTop: "0px",
                   }}
                 >
