@@ -10,7 +10,7 @@ const AppContainer = styled.div`
   display: flex;
   width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background: lightgray;
   justify-content: center;
   flex-direction: column;
@@ -24,6 +24,12 @@ const PostContainer = styled.div`
   border: 1px solid gray;
   align-items: flex-start;
   margin-top: 29px;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    /* width: 1rem; */
+    margin-left: -200px;
+  }
 `;
 
 const Post1 = styled.div`
@@ -36,6 +42,22 @@ const Post1 = styled.div`
   padding: 37px;
   padding-bottom: 13px;
   flex-direction: column;
+
+  @media screen and (max-width: 800px) {
+    width: 145%;
+  }
+`;
+
+const Img1 = styled.img`
+  height: 360.5px;
+  width: 50%;
+  /* width: 516px; */
+
+  @media screen and (max-width: 800px) {
+    height: 250px;
+    width: 181%;
+    /* margin-left: 10px; */
+  }
 `;
 
 function App() {
@@ -48,7 +70,7 @@ function App() {
         </div>
         <div>
           <PostContainer>
-            <img height="360.5" width="516" src={paos} alt="paos" />
+            <Img1 src={paos} alt="paos" />
 
             <Post1>
               <div style={{ display: "flex" }}>
