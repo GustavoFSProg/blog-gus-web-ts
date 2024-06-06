@@ -9,12 +9,13 @@ import { FaRegHeart } from "react-icons/fa6";
 const AppContainer = styled.div`
   display: flex;
   width: 100vw;
-  height: 100vh;
-  /* overflow-x: hidden; */
+  height: auto;
+  overflow-x: hidden;
   background: lightgray;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 100px;
 `;
 
 const PostContainer = styled.div`
