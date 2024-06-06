@@ -41,7 +41,7 @@ const Post1 = styled.div`
   align-items: flex-start;
   background: white;
   padding: 37px;
-  padding-bottom: 13px;
+  padding-bottom: 24px;
   flex-direction: column;
 
   @media screen and (max-width: 800px) {
@@ -67,6 +67,34 @@ const Img1 = styled.img`
   }
 `;
 
+const ViewsContainer = styled.div`
+  display: flex;
+  width: 60vw;
+  /* height: auto; */
+  /* align-items: flex-start; */
+  margin-top: 13px;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    /* width: 1rem; */
+    /* margin-left: -120px; */
+    justify-content: center;
+  }
+`;
+
+const Coments = styled.span`
+  display: flex;
+  /* width: 60vw; */
+  /* height: auto; */
+  /* align-items: flex-start; */
+  margin-left: 12px;
+
+  @media screen and (max-width: 800px) {
+    margin-left: 0px;
+    margin-top: 6px;
+  }
+`;
+
 function App() {
   return (
     <>
@@ -86,6 +114,7 @@ function App() {
                     fontSize: "35px",
                     marginTop: "-1px",
                     color: "darkblue",
+                    paddingBottom: "16px",
                   }}
                 />
                 <div
@@ -123,20 +152,21 @@ function App() {
                   display: "flex",
                   width: "100%",
                   borderTop: "1px solid gray",
-                  marginTop: "60px",
+                  marginTop: "50px",
                   fontSize: "14px",
                 }}
               >
-                <div style={{ display: "flex" }}>
-                  <p>0 visualização</p>
-                  <p style={{ marginLeft: "12px" }}> 0 comentário</p>
-                </div>
+                <ViewsContainer>
+                  <span>0 visualização</span>
+                  <Coments> 0 comentário</Coments>
+                </ViewsContainer>
                 <div
                   style={{
                     display: "flex",
                     width: "55%",
                     alignItems: "center",
                     justifyContent: "flex-end",
+                    marginTop: "12px",
                   }}
                 >
                   <span style={{ fontSize: "16px" }}>1</span>
