@@ -65,7 +65,7 @@ function App() {
                     flexDirection: "column",
                     fontSize: "13px",
                     marginLeft: "6px",
-                    marginTop: "1px",
+                    marginTop: "0px",
                   }}
                 >
                   <span>Administrador</span>
