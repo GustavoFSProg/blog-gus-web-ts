@@ -95,21 +95,6 @@ const Coments = styled.span`
   }
 `;
 
-const ImgContainer = styled.div`
-  display: flex;
-  width: 62vw;
-
-  /* height: auto; */
-  /* align-items: flex-start; */
-
-  @media screen and (max-width: 800px) {
-    width: 50vw;
-    background: green;
-    height: 200px;
-    margin-left: -220px;
-  }
-`;
-
 const ImageTopo = styled.img`
   width: 1045px;
   @media screen and (max-width: 800px) {
