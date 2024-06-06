@@ -28,7 +28,7 @@ const PostContainer = styled.div`
   @media screen and (max-width: 800px) {
     flex-direction: column;
     /* width: 1rem; */
-    margin-left: -200px;
+    margin-left: -120px;
   }
 `;
 
@@ -36,7 +36,7 @@ const Post1 = styled.div`
   display: flex;
   width: 28rem;
   height: auto;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   align-items: flex-start;
   background: white;
   padding: 37px;
@@ -44,7 +44,7 @@ const Post1 = styled.div`
   flex-direction: column;
 
   @media screen and (max-width: 800px) {
-    width: 145%;
+    width: 123%;
   }
 `;
 
@@ -53,9 +53,15 @@ const Img1 = styled.img`
   width: 50%;
   /* width: 516px; */
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 550px) {
     height: 250px;
-    width: 181%;
+    width: 156%;
+    /* margin-left: 10px; */
+  }
+
+  @media screen and (min-width: 550px) and (max-width: 800px) {
+    height: 250px;
+    width: 142%;
     /* margin-left: 10px; */
   }
 `;
