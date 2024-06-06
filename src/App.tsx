@@ -10,7 +10,7 @@ const AppContainer = styled.div`
   display: flex;
   width: 100vw;
   height: auto;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   background: lightgray;
   justify-content: center;
   flex-direction: column;
