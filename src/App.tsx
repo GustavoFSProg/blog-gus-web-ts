@@ -28,7 +28,6 @@ const PostContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
-    width: 59vw;
     margin-left: -120px;
   }
 `;
@@ -45,7 +44,7 @@ const Post1 = styled.div`
   flex-direction: column;
 
   @media screen and (max-width: 800px) {
-    width: 123%;
+    width: 121%;
   }
 `;
 
