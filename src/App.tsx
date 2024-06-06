@@ -28,7 +28,7 @@ const PostContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
-    /* width: 1rem; */
+    width: 59vw;
     margin-left: -120px;
   }
 `;
