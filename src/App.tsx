@@ -34,7 +34,7 @@ const Post1 = styled.div`
   align-items: flex-start;
   background: white;
   padding: 37px;
-  padding-bottom: 22px;
+  padding-bottom: 13px;
   flex-direction: column;
 `;
 
@@ -68,8 +68,8 @@ function App() {
                     marginTop: "1px",
                   }}
                 >
-                  <span>Administrador 9 aaaa</span>
-                  <span style={{ marginTop: "0px" }}>04/05/2024</span>
+                  <span>Administrador</span>
+                  <span style={{ marginTop: "-2px" }}>04/05/2024</span>
                 </div>
               </div>
               <div>
@@ -79,7 +79,8 @@ function App() {
                 style={{
                   marginTop: "-22px",
                   lineHeight: "23px",
-                  fontSize: "18px",
+                  fontSize: "16px",
+                  fontFamily: "Open Sans",
                 }}
               >
                 <p>
@@ -99,7 +100,7 @@ function App() {
               >
                 <div style={{ display: "flex" }}>
                   <p>0 visualização</p>
-                  <p style={{ marginLeft: "12px" }}> 0 comentário 1</p>
+                  <p style={{ marginLeft: "12px" }}> 0 comentário</p>
                 </div>
                 <div
                   style={{
@@ -114,7 +115,7 @@ function App() {
                     style={{
                       color: "red",
                       fontSize: "18px",
-                      marginLeft: "4px",
+                      marginLeft: "5px",
                     }}
                   />
                 </div>
