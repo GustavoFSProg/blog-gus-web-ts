@@ -10,4 +10,8 @@ export const NavBarContainer = styled.div`
   justify-content: space-between;
   padding-left: 18px;
   padding-right: 18px;
+
+  @media screen and (max-width: 800px) {
+    width: 90%;
+  }
 `;

@@ -10,7 +10,7 @@ const AppContainer = styled.div`
   display: flex;
   width: 100vw;
   height: auto;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background: lightgray;
   justify-content: center;
   flex-direction: column;
@@ -95,13 +95,36 @@ const Coments = styled.span`
   }
 `;
 
+const ImgContainer = styled.div`
+  display: flex;
+  width: 62vw;
+
+  /* height: auto; */
+  /* align-items: flex-start; */
+
+  @media screen and (max-width: 800px) {
+    width: 50vw;
+    background: green;
+    height: 200px;
+    margin-left: -220px;
+  }
+`;
+
+const ImageTopo = styled.img`
+  width: 1045px;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    height: 180px;
+  }
+`;
+
 function App() {
   return (
     <>
       <AppContainer>
         <NavBar />
         <div>
-          <img style={{ width: "62vw" }} src={topo} alt="topo comida" />
+          <ImageTopo src={topo} alt="topo comida" />
         </div>
         <div>
           <PostContainer>
